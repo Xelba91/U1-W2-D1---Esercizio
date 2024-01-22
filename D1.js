@@ -166,12 +166,22 @@ console.log("9 - Continuate a mescolare a fuoco dolce fino a raggiungere la cons
 let besciamella = 0;
 let cotturaTot = (cottura + cottura2) + 6;
 besciamella = pentolino + pentolino2;
-let aa;
-let bi;
-let ci;
-aa = "Il peso totale della ricetta per 4 persone è:"+ besciamella +" grammi.\n";
-bi = "La porzione per una persona è di "+ besciamella / 4 + " grammi.\n";
-ci = "Il tempo totale di cottura è: "+ cotturaTot + " minuti";
 
-let risposta = aa+bi+ci;
-console.log(risposta);
+//risposta con piu variabili
+// let aa;
+// let bi;
+// let ci;
+// aa = "Il peso totale della ricetta per 4 persone è:"+ besciamella +" grammi.\n";
+// bi = "La porzione per una persona è di "+ besciamella / 4 + " grammi.\n";
+// ci = "Il tempo totale di cottura è: "+ cotturaTot + " minuti";
+
+// let risposta = aa+bi+ci;
+// console.log(risposta);
+
+// risposta con una sola variabile
+let risposta2 ;
+
+risposta2 = "Il peso totale della ricetta per 4 persone è:"+ besciamella +" grammi.\n"+
+ "La porzione per una persona è di "+ besciamella / 4 + " grammi.\n"+
+ "Il tempo totale di cottura è: "+ cotturaTot + " minuti";
+ console.log(risposta2);
