@@ -147,7 +147,7 @@ let pentolino = 0;
 pentolino += latte;
 console.log("2 - aggiungete la noce moscata")
 pentolino += noceMoscata;
-console.log("3 - aggiungere e il sale, poi fatelo scaldare.")
+console.log("3 - aggiungere il sale, poi fatelo scaldare.")
 pentolino += sale;
 cottura = 3;
 console.log("Il peso del primo pentolino è:",pentolino, "grammi\ntempo di cottura :", cottura,"minuti")
